@@ -1,5 +1,6 @@
 // pages/_app.js
 import Head from 'next/head';
+
 import { useEffect } from 'react';
 import '../app/globals.css'; // Your global styles
 
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.js"></script>
       </Head>
       <Component {...pageProps} />
       
