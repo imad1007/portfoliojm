@@ -17,10 +17,10 @@ export default function Hero() {
               étudiant en 2ème année de BTS SIO
             </p>
             <a
-              href="#"
+              href="/pdf/youssef.pdf"
               class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-            >
-              Get started
+            > 
+             Consultez mon CV
               <svg
                 class="w-5 h-5 ml-2 -mr-1"
                 fill="currentColor"
@@ -35,14 +35,14 @@ export default function Hero() {
               </svg>
             </a>
             <a
-              href="#"
+              href="/certificats"
               class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
-              Speak to Sales
+              Mes certificats
             </a>
           </div>
           <div class="hidden lg:mt-0 lg:col-span-5 lg:flex h-96 w-96">
-            <img src="/images/heroImage.png" alt="mockup" />
+            <img src="/images/youssef.jpeg" alt="mockup" className="rounded-xl" />
           </div>
         </div>
       </section>
