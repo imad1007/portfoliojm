@@ -4,17 +4,17 @@ export default function Presentation() {
   return (<>
   <Navbar/>
     <div>
-      <section class="bg-white dark:bg-zinc-950">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+      <section className="bg-white dark:bg-white">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-500">
             BTS SIO
           </h2>
-          <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
+          <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
             <div>
-              <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-zinc-500">
                   <svg
-                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -27,16 +27,16 @@ export default function Presentation() {
                   </svg>
                   Présentation
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p className="text-gray-500 dark:text-gray-400">
                   BTS SIO (Services Informatiques aux Organisations) est une
                   spécialité liée au développement web ainsi que les réseaux
                   informatiques. Elle dure deux ans.
                 </p>
               </div>
-              <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-zinc-500">
                   <svg
-                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ export default function Presentation() {
                   </svg>
                   Les options
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p className="text-gray-500 dark:text-gray-400">
                   Dans ce BTS SIO, on a le choix entre 2 spécialités : SLAM
                   (Solutions Logicielles et Applications métiers) SISR
                   (Solutions d'infrastructure, Systèmes et Réseaux) L'option
@@ -59,11 +59,12 @@ export default function Presentation() {
                 </p>
               </div>
             </div>
+            
             <div>
-              <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-zinc-500">
                   <svg
-                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -76,95 +77,47 @@ export default function Presentation() {
                   </svg>
                   Examens
                 </h3>
-                <div class="text-gray-500 dark:text-gray-400">
-                  <div class="relative overflow-x-auto">
-                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                      <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                        <tr>
-                          <th scope="col" class="px-6 py-3">
-                            Examens
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                          <th
-                            scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                          >
-                            E1 - Culture générale et expression
-                          </th>
-                        </tr>
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                          <th
-                            scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                          >
-                            E2 - Expression et communication en langue anglaise
-                          </th>
-                        </tr>
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                          <th
-                            scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                          >
-                            E3 - Mathématiques pour l'informatique.
-                          </th>
-                        </tr>
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                          <th
-                            scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                          >
-                            E4 - Culture économique juridique et managériale
-                            pour l'informatique.
-                          </th>
-                        </tr>
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                          <th
-                            scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                          >
-                            E5 - Support et mise à disposition de services
-                            informatiques
-                          </th>
-                        </tr>
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                          <th
-                            scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                          >
-                            E6 - Administration des systèmes et des réseaux
-                            (option SISR)
-                          </th>
-                        </tr>
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                          <th
-                            scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                          >
-                            E7 - Conception et développement d'applications
-                            (option SLAM)
-                          </th>
-                        </tr>
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                          <th
-                            scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                          >
-                            E7 - Cybersécurité des services informatiques
-                            (spécifique à l'option)è
-                          </th>
-                        </tr>
-                      </tbody>
-                    </table>
+                <div className="text-gray-500 dark:text-gray-400">
+                  <div className="relative overflow-x-auto">
+                  <div class="w-full md:w-96 text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden">
+  <div class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-100 dark:text-gray-400 px-6 py-3">
+    Examens
+  </div>
+  <ul>
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+      E1 - Culture générale et expression
+    </li>
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+      E2 - Expression et communication en langue anglaise
+    </li>
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+      E3 - Mathématiques pour l'informatique
+    </li>
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+      E4 - Culture économique juridique et managériale pour l'informatique
+    </li>
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+      E5 - Support et mise à disposition de services informatiques
+    </li>
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+      E6 - Administration des systèmes et des réseaux (option SISR)
+    </li>
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+      E7 - Conception et développement d'applications (option SLAM)
+    </li>
+    <li class="bg-white dark:bg-gray-100 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+      E7 - Cybersécurité des services informatiques (spécifique à l'option)
+    </li>
+  </ul>
+</div>
+
                   </div>
                 </div>
               </div>
-              <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-zinc-500">
                   <svg
-                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -178,60 +131,60 @@ export default function Presentation() {
                   Les débouchés
 
                 </h3>
-                <p className="dark:text-gray-200 text-sm">Après le BTS SIO, on peut faire une poursuite d'études ou directement aller dans le monde du travail.</p>
+                <p className="dark:text-gray-500 text-sm">Après le BTS SIO, on peut faire une poursuite d'études ou directement aller dans le monde du travail.</p>
 
-                <div class="relative overflow-x-auto">
-                  <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <div className="relative overflow-x-auto">
+                  <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                    <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-300 dark:text-gray-400">
                       <tr>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           SISR
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                           SLAM
                         </th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                        <td class="px-6 py-4">Pilote d’exploitation</td>
-                        <td class="px-6 py-4">Développeur informatique</td>
+                      <tr className="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200">
+                        <td className="px-6 py-4">Pilote d’exploitation</td>
+                        <td className="px-6 py-4">Développeur informatique</td>
                       </tr>
-                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                        <td class="px-6 py-4">
+                      <tr className="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200">
+                        <td className="px-6 py-4">
                           Administrateur systèmes et réseaux
                         </td>
-                        <td class="px-6 py-4">Programmeur</td>
+                        <td className="px-6 py-4">Programmeur</td>
                       </tr>
-                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                        <td class="px-6 py-4">
+                      <tr className="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200">
+                        <td className="px-6 py-4">
                           Gestionnaire du parc informatique de l’entreprise
                         </td>
-                        <td class="px-6 py-4">Analyste programmeur</td>
+                        <td className="px-6 py-4">Analyste programmeur</td>
                       </tr>
-                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                        <td class="px-6 py-4">
+                      <tr className="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200">
+                        <td className="px-6 py-4">
                         Analyste d’exploitation informatique
                         </td>
-                        <td class="px-6 py-4">Technicien informatique</td>
+                        <td className="px-6 py-4">Technicien informatique</td>
                       </tr>
-                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                        <td class="px-6 py-4">
+                      <tr className="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200">
+                        <td className="px-6 py-4">
                         Technicien des réseaux de télécommunications
                         </td>
-                        <td class="px-6 py-4">Responsable des services applicatifs</td>
+                        <td className="px-6 py-4">Responsable des services applicatifs</td>
                       </tr>
-                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                        <td class="px-6 py-4">
+                      <tr className="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200">
+                        <td className="px-6 py-4">
                         Technicien d’infrastructure
                         </td>
-                        <td class="px-6 py-4">Informaticien d’études</td>
+                        <td className="px-6 py-4">Informaticien d’études</td>
                       </tr>
-                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                        <td class="px-6 py-4">
+                      <tr className="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200">
+                        <td className="px-6 py-4">
                         Technicien systèmes et réseaux
                         </td>
-                        <td class="px-6 py-4">Développeur d’applications informatiques</td>
+                        <td className="px-6 py-4">Développeur d’applications informatiques</td>
                       </tr>
                     </tbody>
                   </table>

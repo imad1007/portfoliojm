@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 export default function Home() {
   return (
     <div className="dark:bg-yellow-200 ">
-      <section className="bg-white py-8 antialiased dark:bg-zinc-950 md:py-16  ">
+      <section className="bg-white py-8 antialiased dark:bg-white md:py-16  ">
         <div className="mx-auto grid max-w-screen-xl px-4 pb-8 md:grid-cols-12 lg:gap-12 lg:pb-16 xl:gap-0">
           <div className="content-center justify-self-start md:col-span-7 md:text-start border-r-8 border-amber-600">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight dark:text-amber-600 md:max-w-2xl md:text-5xl xl:text-6xl  text-gray-900 h-32">
@@ -129,7 +129,7 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <section className="bg-white antialiased dark:bg-zinc-950 md:py-1  ">
+      <section className="bg-white antialiased dark:bg-white md:py-1  ">
 
         <div className="mx-auto grid max-w-screen-xl px-4 pb-8 md:grid-cols-12 lg:gap-12 lg:pb-16 xl:gap-0">
           <div className="content-center justify-self-start md:col-span-7 md:text-start border-r-8 border-amber-600">
@@ -149,7 +149,7 @@ export default function Home() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-zinc-950">
                 BTS SIO (SLAM) – Services Informatiques aux Organisations
                   <span class="bg-amber-100 text-amber-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-amber-900 dark:text-amber-300 ms-3">
                     Latest
@@ -176,7 +176,7 @@ export default function Home() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-zinc-950">
                 Technicien Spécialisé en Développement Digital – Full Stack Web
                 </h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -199,7 +199,7 @@ export default function Home() {
                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                   </svg>
                 </span>
-                <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-zinc-950">
                 Baccalauréat en Sciences Expérimentales – Option Sciences Physiques
                 </h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -219,16 +219,16 @@ export default function Home() {
 
         </div>
       </section>
-      <section className="bg-white antialiased dark:bg-zinc-950 md:py-1 ">
+      <section className="bg-white antialiased dark:bg-white md:py-1 ">
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Technical Skills</h2>
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-950">Technical Skills</h2>
           <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400"></p>
       </div> 
       <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div class="text-center text-gray-500 dark:text-gray-400">
               <img class="mx-auto mb-4 w-36 h-36  p-4" src="/images/frontIC.png" alt="Bonnie Avatar"/>
-              <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
                   <a href="#">Front-end Development</a>
               </h3>
               <p>HTML, CSS, JavaScript, React, JQuery</p>
@@ -257,7 +257,7 @@ export default function Home() {
           </div>
           <div class="text-center text-gray-500 dark:text-gray-400">
               <img class="mx-auto mb-4 w-36 h-36 " src="/images/backIC.png" alt="Helene Avatar"/>
-              <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
                   <a href="#">Back-end Development</a>
               </h3>
               <p>PHP, Laravel, Django</p>
@@ -286,7 +286,7 @@ export default function Home() {
           </div>
           <div class="text-center text-gray-500 dark:text-gray-400">
               <img class="mx-auto mb-4 w-36 h-36 " src="/images/database.png" alt="Jese Avatar"/>
-              <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
                   <a href="#">Database Management</a>
               </h3>
               <p>SQL, MySQL</p>
@@ -315,7 +315,7 @@ export default function Home() {
           </div>
           <div class="text-center text-gray-500 dark:text-gray-400">
               <img class="mx-auto mb-4 w-36 h-36 " src="images/system.png" alt="Joseph Avatar"/>
-              <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
                   <a href="#">System Administration</a>
               </h3>
               <p>Sales</p>
@@ -345,10 +345,10 @@ export default function Home() {
       </div>  
   </div>
       </section>
-      <section class="bg-white dark:bg-zinc-950">
+      <section class="bg-white dark:bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Professional Experience
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-950">Professional Experience
           </h2>
           <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400"></p>
       </div> 
@@ -358,7 +358,7 @@ export default function Home() {
                   <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"/>
               </a> */}
               <div class="p-5">
-                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
                       <a href="#">Stagiaire Développeur Web – CAPLOGY</a>
                   </h3>
                   <span class="text-gray-500 dark:text-gray-400"> 📍 Paris (Velizy-Villacoublay) </span>
@@ -374,7 +374,7 @@ export default function Home() {
                   <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Avatar">
               </a> */}
               <div class="p-5">
-                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
                       <a href="#">Stage Développement Web – Mairie de Berkane</a>
                   </h3>
                   <span class="text-gray-500 dark:text-gray-400">📍 Berkane, Maroc</span>
@@ -390,7 +390,7 @@ export default function Home() {
                   <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="Michael Avatar">
               </a> */}
               <div class="p-5">
-                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
                       <a href="#">Equipier Polyvalent Étudiant – LIDL</a>
                   </h3>
                   <span class="text-gray-500 dark:text-gray-400">📍 France</span>
@@ -402,7 +402,7 @@ export default function Home() {
                   <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="Sofia Avatar">
               </a> */}
               <div class="p-5">
-                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
                       <a href="#">Chauffeur Livreur – Urban Transport</a>
                   </h3>
                   <span class="text-gray-500 dark:text-gray-400">📍 Aulnay-Sous-Bois, France</span>

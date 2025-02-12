@@ -4,16 +4,16 @@ export default function Hero() {
   return (
     <div>
       <Navbar />
-      <section class="bg-white  bg-gradient-to-r from-black to-zinc-800 bg-cover bg-center bg-no-repeat  h-screen backdrop-blur-lg">
+      <section class="bg-white  bg-white bg-cover bg-center bg-no-repeat  h-screen backdrop-blur-lg border-b border-gray-700">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
-            <p className="text-2xl dark:text-white fonr-bold mb-10">
+            <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
               Bonjour 👋, je m'appelle
             </p>
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-zinc-950">
               Youssef baghdadi
             </h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-zinc-950">
               étudiant en 2ème année de BTS SIO
             </p>
             <a
@@ -36,7 +36,7 @@ export default function Hero() {
             </a>
             <a
               href="/certificats"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-zinc-950 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
               Mes certificats
             </a>
@@ -46,16 +46,16 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class="bg-white  bg-gradient-to-r from-black to-zinc-800  bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950">
+      <section class="  bg-white  bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-gray-700">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
-            {/* <p className="text-2xl dark:text-white fonr-bold mb-10">
+            {/* <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
             Bonjour 👋, je m'appelle
             </p> */}
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-zinc-950">
               Présentation 👨🏻‍💻
             </h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-zinc-950">
               J'ai débuté le développement web en autodidacte vers fin 2017, en
               réalisant de petits projets. Puis, j'ai commencé à explorer le
               back-end il y a 2 ans avec l'apprentissage du langage PHP. Le BTS
@@ -65,7 +65,7 @@ export default function Hero() {
 
             {/* <a
               href="#"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-zinc-950 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
               Speak to Sales
             </a> */}
@@ -75,16 +75,17 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class="bg-white  bg-gradient-to-r from-black to-zinc-800  bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950">
+      <section class="bg-white  bg-white  bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-gray-700">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
-            {/* <p className="text-2xl dark:text-white fonr-bold mb-10">
+            {/* <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
             Bonjour 👋, je m'appelle
             </p> */}
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-zinc-950">
               Qu'est ce que le BTS SIO 🎓 ?
             </h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
+
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-zinc-950">
               Avant de commencer à parler de moi, je vous propose de présenter
               en premier lieu ma filière dont je suis affecté Le Brevet de
               Technicien Supérieur aux Services Informatiques aux Organisations
@@ -96,7 +97,7 @@ export default function Hero() {
 
             {/* <a
               href="#"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-zinc-950 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
               Speak to Sales
             </a> */}

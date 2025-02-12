@@ -6,10 +6,10 @@ export default function Project() {
     <>
       <Navbar />
       <div>
-        <section className="bg-white dark:bg-zinc-950">
+        <section className="bg-white dark:bg-white">
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-500">
                 Mes projets
               </h2>
               <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
@@ -19,16 +19,16 @@ export default function Project() {
               </p>
             </div>
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-800 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-200 dark:border-gray-700">
                 <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-500">
                     <span>
 
                     Site web avec Wordpress
                     </span>
                     <span>
                       <svg
-                        class="w-6 h-6 text-gray-800 dark:text-white"
+                        class="w-6 h-6 text-gray-800 dark:text-zinc-500"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -52,9 +52,9 @@ export default function Project() {
                   </p>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-800 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-200 dark:border-gray-700">
                 <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-500">
                     Jeu Snake en C
                   </h3>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
@@ -63,9 +63,9 @@ export default function Project() {
                   </p>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-800 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-200 dark:border-gray-700">
                 <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-500">
                     Boutique en ligne Shopify
                   </h3>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
@@ -74,9 +74,9 @@ export default function Project() {
                   </p>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-800 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-200 dark:border-gray-700">
                 <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-500">
                     Site de gestion des interventions
                   </h3>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
@@ -85,9 +85,9 @@ export default function Project() {
                   </p>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-800 dark:border-gray-700">
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-zinc-200 dark:border-gray-700">
                 <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-500">
                     Logiciel de gestion des interventions en Java
                   </h3>
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
