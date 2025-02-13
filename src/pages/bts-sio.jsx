@@ -4,15 +4,15 @@ export default function Presentation() {
   return (<>
   <Navbar/>
     <div>
-      <section className="bg-white dark:bg-white">
+      <section className="bg-gradient-to-r from-[#19ffbf8f] via-[#ffffcd] to-[#00ff5e8c]">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-500">
+          <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray-950">
             BTS SIO
           </h2>
           <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
             <div>
               <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-zinc-500">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-gray-950">
                   <svg
                     className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -34,7 +34,7 @@ export default function Presentation() {
                 </p>
               </div>
               <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-zinc-500">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-gray-950">
                   <svg
                     className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -62,7 +62,7 @@ export default function Presentation() {
             
             <div>
               <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-zinc-500">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-gray-950">
                   <svg
                     className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -84,28 +84,28 @@ export default function Presentation() {
     Examens
   </div>
   <ul>
-    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-gray-950">
       E1 - Culture générale et expression
     </li>
-    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-gray-950">
       E2 - Expression et communication en langue anglaise
     </li>
-    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-gray-950">
       E3 - Mathématiques pour l'informatique
     </li>
-    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-gray-950">
       E4 - Culture économique juridique et managériale pour l'informatique
     </li>
-    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-gray-950">
       E5 - Support et mise à disposition de services informatiques
     </li>
-    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-gray-950">
       E6 - Administration des systèmes et des réseaux (option SISR)
     </li>
-    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+    <li class="bg-white border-b dark:bg-gray-100 dark:border-gray-700 border-gray-200 px-6 py-4 font-medium text-gray-900 dark:text-gray-950">
       E7 - Conception et développement d'applications (option SLAM)
     </li>
-    <li class="bg-white dark:bg-gray-100 px-6 py-4 font-medium text-gray-900 dark:text-zinc-500">
+    <li class="bg-white dark:bg-gray-100 px-6 py-4 font-medium text-gray-900 dark:text-gray-950">
       E7 - Cybersécurité des services informatiques (spécifique à l'option)
     </li>
   </ul>
@@ -115,7 +115,7 @@ export default function Presentation() {
                 </div>
               </div>
               <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-zinc-500">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-gray-950">
                   <svg
                     className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"

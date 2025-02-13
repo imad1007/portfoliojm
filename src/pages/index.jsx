@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div>
       <Navbar />
-      <section class="bg-white  bg-white bg-cover bg-center bg-no-repeat  h-screen backdrop-blur-lg border-b border-gray-700">
+      <section class="bg-gradient-to-r from-[#19ffbf8f] via-[#ffffcd] to-[#00ff5e8c] h-screen w-full   backdrop-blur-lg border-b border-gray-700">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
             <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
@@ -34,14 +34,9 @@ export default function Hero() {
                 ></path>
               </svg>
             </a>
-            <a
-              href="/certificats"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-zinc-950 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-            >
-              Mes certificats
-            </a>
+
           </div>
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex h-96 w-96">
+          <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
             <img src="/images/youssef.jpeg" alt="mockup" className="rounded-xl" />
           </div>
         </div>
@@ -75,7 +70,7 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class="bg-white  bg-white  bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-gray-700">
+      <section class="bg-white    bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-gray-700">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
             {/* <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">

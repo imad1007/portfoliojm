@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en" class="dark">
       <link href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css" rel="stylesheet"/>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-zinc-950`}>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-green-300`}>
         {children}
         <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.js"></script>
       </body>

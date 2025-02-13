@@ -6,7 +6,7 @@ export default function Project() {
     <>
       <Navbar />
       <div>
-        <section className="bg-white dark:bg-white">
+        <section className="bg-gradient-to-r from-[#19ffbf8f] via-[#ffffcd] to-[#00ff5e8c]">
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-500">
@@ -23,7 +23,6 @@ export default function Project() {
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-500">
                     <span>
-
                     Site web avec Wordpress
                     </span>
                     <span>
