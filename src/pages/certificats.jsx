@@ -4,8 +4,8 @@ export default function Certificats() {
   return (
     <>
       <Navbar />
-      <div>
-        <section class="bg-gradient-to-r from-[#19ffbf8f] via-[#ffffcd] to-[#00ff5e8c]">
+      <div class=" bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')] ">
+        <section class="">
           <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
             <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
               <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-zinc-950">
@@ -14,10 +14,10 @@ export default function Certificats() {
               <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-800"></p>
             </div>
             <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-              <div class="items-center  rounded-lg shadow sm:flex dark:bg-[#7fcfb8] dark:border-gray-700">
+              <div class="items-center  rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
                 <a href="/pdf/html5css3">
                   {/* <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"/>
+                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-blue.png" alt="Bonnie Avatar"/>
               </a> */}
                   <div class="p-5">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
@@ -34,7 +34,7 @@ export default function Certificats() {
                     </p>
                     <button
              
-             class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900"
+             class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
            > 
             Consultez mon certificat
              <svg
@@ -53,7 +53,7 @@ export default function Certificats() {
                   </div>
                 </a>
               </div>
-              <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-[#7fcfb8] dark:border-gray-700">
+              <div class="items-center bg-blue-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
                 <div class="p-5">
                   <a href="/pdf/responsive">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
@@ -72,7 +72,7 @@ export default function Certificats() {
                     </p>
                     <button
              
-              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900"
+              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
             > 
              Consultez mon certificat
               <svg
@@ -91,7 +91,7 @@ export default function Certificats() {
                   </a>
                 </div>
               </div>
-              <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-[#7fcfb8] dark:border-gray-700">
+              <div class="items-center bg-blue-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
                 <div class="p-5">
                   <a href="/pdf/bootstrap5">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
@@ -110,7 +110,7 @@ export default function Certificats() {
                     </p>
                     <button
              
-             class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900"
+             class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
            > 
             Consultez mon certificat
              <svg
@@ -129,7 +129,7 @@ export default function Certificats() {
                   </a>
                 </div>
               </div>
-              <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-[#7fcfb8] dark:border-gray-700">
+              <div class="items-center bg-blue-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
                 <div class="p-5">
                   <a href="/pdf/bootstrap">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-zinc-950">
@@ -149,7 +149,7 @@ export default function Certificats() {
                     </p>
                     <button
              
-             class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900"
+             class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
            > 
             Consultez mon certificat
              <svg

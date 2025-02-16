@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "../components/navbar";
 export default function Hero() {
   return (
-    <div>
+    <div class=" bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')] ">
       <Navbar />
-      <section class="bg-gradient-to-r from-[#19ffbf8f] via-[#ffffcd] to-[#00ff5e8c] h-screen w-full   backdrop-blur-lg border-b border-gray-700">
+      <section class=" backdrop-blur-lg border-b  border-gray-400">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
             <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
@@ -18,9 +18,9 @@ export default function Hero() {
             </p>
             <a
               href="/pdf/youssef.pdf"
-              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-            > 
-             Consultez mon CV
+              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900"
+            >
+              Consultez mon CV
               <svg
                 class="w-5 h-5 ml-2 -mr-1"
                 fill="currentColor"
@@ -34,19 +34,20 @@ export default function Hero() {
                 ></path>
               </svg>
             </a>
-
           </div>
           <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
-            <img src="/images/youssef.jpeg" alt="mockup" className="rounded-xl" />
+            <img
+              src="/images/youssef.jpeg"
+              alt="mockup"
+              className="rounded-xl"
+            />
           </div>
         </div>
       </section>
-      <section class="  bg-white  bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-gray-700">
+
+      <section class="   backdrop-blur-lg border-b  border-gray-400">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div class="mr-auto place-self-center lg:col-span-7">
-            {/* <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
-            Bonjour 👋, je m'appelle
-            </p> */}
+          <div class="mr-auto place-self-center lg:col-span-7 ">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-zinc-950">
               Présentation 👨🏻‍💻
             </h1>
@@ -57,25 +58,15 @@ export default function Hero() {
               SIO m'a permis de structurer mes apprentissages et à améliorer mon
               organisation.
             </p>
-
-            {/* <a
-              href="#"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-zinc-950 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-            >
-              Speak to Sales
-            </a> */}
           </div>
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex h-96 w-96">
-            <img src="https://studyplus.ma/wp-content/uploads/2024/12/VIE-ECOLE-IRIS-PARIS-4_ce0ayx.jpg" alt="mockup" />
+          <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 ">
+            <img src="/images/heroImage.png" alt="mockup" />
           </div>
         </div>
       </section>
-      <section class="bg-white    bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-gray-700">
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <section class=" bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-gray-400">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
-            {/* <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
-            Bonjour 👋, je m'appelle
-            </p> */}
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-zinc-950">
               Qu'est ce que le BTS SIO 🎓 ?
             </h1>
@@ -89,19 +80,74 @@ export default function Hero() {
               suite intégré directement le marché du travail ou continuer des
               études, dans le domaine de l'informatique.
             </p>
-
-            {/* <a
-              href="#"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-zinc-950 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-            >
-              Speak to Sales
-            </a> */}
           </div>
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex h-96 w-96">
-            {/* <img
-              src="/images/heroImage.png"
-              alt="mockup"
-            /> */}
+          <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96">
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <img
+                  class="w-64 h-64 object-cover rounded-lg"
+                  src="https://www.efrei.fr/wp-content/uploads/2024/06/EFREI-CampusBordeaux-042024CorinneHameau-042-scaled.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="w-64 h-64 object-cover rounded-lg"
+                  src="https://res.cloudinary.com/mediaschool/image/upload/v1/Iris%20images/IRIS-PARIS-BAN-3_qcelhn"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="w-64 h-64 object-cover rounded-lg"
+                  src="https://cfa-insta.fr/wp-content/uploads/2020/09/xpasserelle-universitaire_btssio.png.pagespeed.ic_.tezZeO5C3Y.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="w-64 h-64 object-cover rounded-lg"
+                  src="images/univ.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class=" backdrop-blur-lg border-b  border-gray-400">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
+        <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509364!2d144.9556513153172!3d-37.81732797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43fdf0b1eb%3A0x5045675218ce840!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2sus!4v1611871897698!5m2!1sen!2sus"
+  width="600"
+  height="450"
+ 
+  allowfullscreen=""
+  loading="lazy">
+</iframe>
+
+          </div>
+          <div class="mr-auto place-self-center lg:col-span-7">
+            <p className="text-4xl dark:text-zinc-950 fonr-bold mb-10">
+            Youssef Baghdadi
+           </p>
+           <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
+📍 Location: Courtry, 93140, France
+</p>
+<p className="text-3xl dark:text-zinc-950 fonr-bold mb-10">
+📞 Phone: 0750012284
+</p>
+<p className="text-3xl dark:text-zinc-950 fonr-bold mb-10">
+📧 Email: ybaghdadi88@gmail.com
+</p>
+<p className="text-3xl dark:text-zinc-950 fonr-bold mb-10">
+🎂 Age: 21
+</p> <p className="text-3xl dark:text-zinc-950 fonr-bold mb-10">
+🚗 Driving License: B + Personal Vehicle
+</p>
+            
+
           </div>
         </div>
       </section>
