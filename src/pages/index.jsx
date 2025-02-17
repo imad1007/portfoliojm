@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
+import { useTypewriter } from 'react-simple-typewriter';
+
 export default function Hero() {
   return (
     <div class=" bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')] ">
@@ -44,7 +46,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="max-w-screen-xl m-auto">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4  w-full p-4 ">
+          <div className="lg:grid overflow-scroll md:grid-cols-3 lg:overflow-hidden lg:grid-cols-6 gap-4  w-full p-4 ">
             <div className="h-20 w-20 overflow-hidden">
               <img
                 src="images/node-js.png"
@@ -68,7 +70,7 @@ export default function Hero() {
             </div>
             <div className="h-20 w-20 overflow-hidden">
               <img
-                src="images/js.png"
+                src="images/react.webp"
                 alt=""
                 className="w-full h-full object-cover"
               />
@@ -82,7 +84,7 @@ export default function Hero() {
             </div>
             <div className="h-20 w-20 overflow-hidden">
               <img
-                src="images/react.webp"
+                src="/images/js.png"
                 alt=""
                 className="w-full h-full object-cover"
               />
