@@ -43,8 +43,53 @@ export default function Hero() {
             />
           </div>
         </div>
+        <div className="max-w-screen-xl m-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4  w-full p-4 ">
+            <div className="h-20 w-20 overflow-hidden">
+              <img
+                src="images/node-js.png"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-20 w-20 overflow-hidden">
+              <img
+                src="images/python.png"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-20 w-20 overflow-hidden">
+              <img
+                src="images/html.png"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-20 w-20 overflow-hidden">
+              <img
+                src="images/js.png"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-20 w-20 overflow-hidden">
+              <img
+                src="images/mysql.png"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="h-20 w-20 overflow-hidden">
+              <img
+                src="images/react.webp"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </section>
-
       <section class="   backdrop-blur-lg border-b  border-gray-400">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7 ">
