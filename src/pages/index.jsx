@@ -18,7 +18,7 @@ export default function Hero() {
             </p>
             <a
               href="/pdf/youssef.pdf"
-              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900"
+              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
             >
               Consultez mon CV
               <svg
@@ -120,8 +120,8 @@ export default function Hero() {
         <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
         <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509364!2d144.9556513153172!3d-37.81732797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43fdf0b1eb%3A0x5045675218ce840!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2sus!4v1611871897698!5m2!1sen!2sus"
-  width="600"
-  height="450"
+  width="300"
+  height="300"
  
   allowfullscreen=""
   loading="lazy">
