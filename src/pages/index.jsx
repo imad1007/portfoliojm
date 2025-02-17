@@ -115,39 +115,35 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class=" backdrop-blur-lg border-b  border-gray-400">
+      <section class=" backdrop-blur-lg border-b  bg-white">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
-        <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509364!2d144.9556513153172!3d-37.81732797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43fdf0b1eb%3A0x5045675218ce840!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2sus!4v1611871897698!5m2!1sen!2sus"
-  width="300"
-  height="300"
- 
-  allowfullscreen=""
-  loading="lazy">
-</iframe>
-
+          <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
+            <iframe
+              className="rounded-xl w-full h-full"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509364!2d144.9556513153172!3d-37.81732797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43fdf0b1eb%3A0x5045675218ce840!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2sus!4v1611871897698!5m2!1sen!2sus"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
           </div>
           <div class="mr-auto place-self-center lg:col-span-7">
-            <p className="text-4xl dark:text-zinc-950 fonr-bold mb-10">
-            Youssef Baghdadi
-           </p>
-           <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
-📍 Location: Courtry, 93140, France
-</p>
-<p className="text-3xl dark:text-zinc-950 fonr-bold mb-10">
-📞 Phone: 0750012284
-</p>
-<p className="text-3xl dark:text-zinc-950 fonr-bold mb-10">
-📧 Email: ybaghdadi88@gmail.com
-</p>
-<p className="text-3xl dark:text-zinc-950 fonr-bold mb-10">
-🎂 Age: 21
-</p> <p className="text-3xl dark:text-zinc-950 fonr-bold mb-10">
-🚗 Driving License: B + Personal Vehicle
-</p>
-            
-
+            <p className="text-2xl lg:text-4xl dark:text-zinc-950 fonr-bold mb-10">
+              Youssef Baghdadi
+            </p>
+            <p className="text-xl lg:text-4xl dark:text-zinc-950 fonr-bold mb-10">
+              📍 Location: Courtry, 93140, France
+            </p>
+            <p className="text-xl lg:text-4xl dark:text-zinc-950 fonr-bold mb-10">
+              📞 Phone: 0750012284
+            </p>
+            <p className="text-xl lg:text-4xl dark:text-zinc-950 fonr-bold mb-10">
+              📧 Email: ybaghdadi88@gmail.com
+            </p>
+            <p className="text-xl lg:text-4xl dark:text-zinc-950 fonr-bold mb-10">
+              🎂 Age: 21
+            </p>{" "}
+            <p className="text-xl lg:text-4xl dark:text-zinc-950 fonr-bold mb-10">
+              🚗 Driving License: B + Personal Vehicle
+            </p>
           </div>
         </div>
       </section>
