@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/navbar";
-import { useTypewriter } from 'react-simple-typewriter';
+import { useTypewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
@@ -45,7 +45,7 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className="max-w-screen-xl m-auto">
+        <div className="max-w-screen-xl m-auto hidden lg:flex">
           <div className="lg:grid overflow-scroll md:grid-cols-3 lg:overflow-hidden lg:grid-cols-6 gap-4  w-full p-4 ">
             <div className="h-20 w-20 overflow-hidden">
               <img
@@ -162,12 +162,12 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class=" border-b  bg-white">
+      <section class=" border-b  bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')]">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
             <iframe
               className="rounded-xl w-full h-full"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509364!2d144.9556513153172!3d-37.81732797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43fdf0b1eb%3A0x5045675218ce840!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2sus!4v1611871897698!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2300.3821866226995!2d2.5507558116031723!3d48.9304989712225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e613ffda132aab%3A0x86a2b7f0b6b6bcc1!2s8%20Rue%20Pierre%20Curie%2C%2093190%20Livry-Gargan%2C%20France!5e1!3m2!1sen!2sma!4v1740434344801!5m2!1sen!2sma"
               allowfullscreen=""
               loading="lazy"
             ></iframe>
@@ -177,7 +177,7 @@ export default function Hero() {
               Youssef Baghdadi
             </p>
             <p className="text-xl lg:text-2xl dark:text-zinc-950 font-bold mb-4">
-              📍 Location: Courtry, 93140, France
+              📍 8 Rue Pierre Curie Livry-Gargan 93190
             </p>
             <p className="text-xl lg:text-2xl dark:text-zinc-950 font-bold mb-4">
               📞 Phone: 0750012284
