@@ -162,7 +162,7 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class=" border-b  bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')]">
+      <section class=" relative border-b  bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')]">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
             <iframe
