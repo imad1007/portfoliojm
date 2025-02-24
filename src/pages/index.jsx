@@ -37,11 +37,12 @@ export default function Hero() {
               </svg>
             </a>
           </div>
-          <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
+          <div class=" lg:mt-0 lg:col-span-5 mt-4">
             <img
+
               src="/images/youssef.jpeg"
               alt="mockup"
-              className="rounded-xl"
+              className="rounded-xl h-96  w-full m-auto"
             />
           </div>
         </div>
