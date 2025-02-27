@@ -6,10 +6,26 @@ export default function Project() {
     <div className=" bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')] w-full h-auto pb-20">
       <Navbar />
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray-950">
-      experience professionnelles
-              </h2>
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray-950">
+          experience professionnelles
+        </h2>
         <ol class="relative border-s border-blue-200 dark:border-blue-950">
+          <li class="mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-blue-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-blue-900 dark:bg-blue-950"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-blue-400 dark:text-blue-700 px-2 rounded-xl bg-blue-300">
+              Stagiaire Développeur Web
+            </time>
+            <h3 class="text-lg font-semibold text-blue-900 dark:text-blue-950">
+              CAPLOGY
+            </h3>
+            <p class="mb-4 text-base font-normal text-blue-500 dark:text-blue-950">
+              <span> 18 Novembre 2024 - 20 Décembre 2024</span>
+              <br />
+              Création d'un site web complet avec Django en intégrant et
+              optimisant les travaux des stagiaires précédents. Développement
+              efficace et cohérent. Montée en compétences techniques.
+            </p>
+          </li>
           <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 bg-blue-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-blue-900 dark:bg-blue-950"></div>
             <time class="mb-1 text-sm font-normal leading-none text-blue-400 dark:text-blue-700 px-2 rounded-xl bg-blue-300">
