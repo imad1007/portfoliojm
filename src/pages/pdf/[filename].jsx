@@ -4,7 +4,7 @@ const PdfViewer = () => {
   const router = useRouter();
   const { filename } = router.query; 
   
-  const pdfUrl = `/pdf/html5css3.pdf`; 
+  const pdfUrl = `/pdf/${filename}.pdf`; 
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="w-screen">

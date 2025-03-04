@@ -71,7 +71,7 @@ export default function Hero() {
             </div>
             <div className="h-20 w-20 overflow-hidden">
               <img
-                src="images/react.webp"
+                src="images/react.png"
                 alt=""
                 className="w-full h-full object-cover"
               />
