@@ -21,12 +21,18 @@ export default function Project() {
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-blue-300 dark:border-gray-700">
                 <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950">
-                    <span>
-                    Site web avec Wordpress
-                    </span>
-                    <span>
-                      <svg
+                  <div className="flex">
+                    <div>
+                    <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-950 mr-4">
+               
+                    Site web avec Wordpress 
+                   
+
+                  </h3>
+                    </div>
+                    <div>
+                      <a href="https://iris-students-irszvt9zjv.live-website.com/">
+                    <svg
                         class="w-6 h-6 text-gray-800 dark:text-gray-950"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +49,10 @@ export default function Project() {
                           d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"
                         />
                       </svg>
-                    </span>
-                  </h3>
+                      </a>
+                    </div>
+                  </div>
+
                   <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-600">
                     Exploration des cours et exercices de la formation, avec une
                     présentation de notre école.
