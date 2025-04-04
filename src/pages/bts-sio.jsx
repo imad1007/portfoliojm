@@ -3,10 +3,10 @@ import Navbar from "@/components/navbar";
 export default function Presentation() {
   return (<>
   <Navbar/>
-  <div class=" bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')] ">
+  <div class=" bg-cover bg-center bg-gradient-to-r from-gray-950 to-purple-950 ">
       <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray-950">
+          <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-purple-800">
             BTS SIO
           </h2>
           <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">

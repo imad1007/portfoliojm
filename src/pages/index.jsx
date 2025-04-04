@@ -4,18 +4,18 @@ import { useTypewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
-    <div class=" bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')] ">
+    <div class=" bg-cover bg-center bg-gradient-to-r from-gray-950 to-purple-950 ">
       <Navbar />
-      <section class=" backdrop-blur-lg border-b  border-gray-400">
+      <section class=" backdrop-blur-lg border-b  border-purple-950">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
-            <p className="text-2xl dark:text-zinc-950 fonr-bold mb-10">
+            <p className="text-2xl dark:text-white fonr-bold mb-10">
               Bonjour 👋, je m'appelle
             </p>
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-zinc-950">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             Djamil Salhi
             </h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-zinc-950">
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
               étudiant en 2ème année de BTS SIO
             </p>
             <a
@@ -93,13 +93,13 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class="   backdrop-blur-lg border-b  border-gray-400">
+      <section class="   backdrop-blur-lg border-b   border-purple-950">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7 ">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-zinc-950">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
               Présentation 👨🏻‍💻
             </h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-zinc-950">
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
               J'ai débuté le développement web en autodidacte vers fin 2017, en
               réalisant de petits projets. Puis, j'ai commencé à explorer le
               back-end il y a 2 ans avec l'apprentissage du langage PHP. Le BTS
@@ -112,21 +112,21 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class=" bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-gray-400">
+      <section class=" bg-cover bg-center bg-no-repeat  h-screen shadow-md shadow-zinc-950 border-b border-purple-950">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-zinc-950">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
               Qu'est ce que le BTS SIO 🎓 ?
             </h1>
 
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-zinc-950">
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
               Avant de commencer à parler de moi, je vous propose de présenter
               en premier lieu ma filière dont je suis affecté Le Brevet de
               Technicien Supérieur aux Services Informatiques aux Organisations
               (BTS SIO), s'adresse à ceux qui souhaitent se former en deux ans
               aux métiers d'administrateur réseau ou de développeur. Pour par la
               suite intégré directement le marché du travail ou continuer des
-              études, dans le domaine de l'informatique.
+              études, dans le domaine de l'informatique.                      
             </p>
           </div>
           <div class=" lg:mt-0 lg:col-span-5 lg:flex h-full w-96">
@@ -163,34 +163,35 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section class=" relative border-b  bg-cover bg-center bg-[url('https://img.freepik.com/premium-photo/vivid-blurred-colorful-wallpaper-background_759200-9453.jpg?semt=ais_hybrid')]">
+      <section class=" relative border-b  bg-cover bg-center bg-gradient-to-r from-gray-950 to-purple-950">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class=" lg:mt-0 lg:col-span-5 lg:flex h-96 w-96 mt-4">
             <iframe
               className="rounded-xl w-full h-full"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2300.3821866226995!2d2.5507558116031723!3d48.9304989712225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e613ffda132aab%3A0x86a2b7f0b6b6bcc1!2s8%20Rue%20Pierre%20Curie%2C%2093190%20Livry-Gargan%2C%20France!5e1!3m2!1sen!2sma!4v1740434344801!5m2!1sen!2sma"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2307.235268163457!2d2.458809111593273!3d48.78158757120216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60caf8f10341d%3A0xd87350234b55c236!2s3%20Rue%20Paul%20Gauguin%2C%2094000%20Cr%C3%A9teil%2C%20France!5e1!3m2!1sen!2sus!4v1743673872428!5m2!1sen!2sus"
               allowfullscreen=""
               loading="lazy"
             ></iframe>
           </div>
           <div className="mr-auto place-self-center lg:col-span-7">
-            <p className="text-2xl lg:text-4xl dark:text-zinc-950 font-bold mb-10">
-              Youssef Baghdadi
+            <p className="text-2xl lg:text-4xl dark:text-white font-bold mb-10">
+              Djamil Salhi
             </p>
-            <p className="text-xl lg:text-2xl dark:text-zinc-950 font-bold mb-4">
-              📍 8 Rue Pierre Curie Livry-Gargan 93190
+            <p className="text-xl lg:text-2xl dark:text-white font-bold mb-4">
+              📍 3 rue Paul Gauguin, ville Crétei
             </p>
-            <p className="text-xl lg:text-2xl dark:text-zinc-950 font-bold mb-4">
-              📞 Phone: 0750012284
+            <p className="text-xl lg:text-2xl dark:text-white font-bold mb-4">
+              📞 Phone: +33 6 51 37 76 33
             </p>
-            <p className="text-xl lg:text-2xl dark:text-zinc-950 font-bold mb-4">
-              📧 Email: ybaghdadi88@gmail.com
+            <p className="text-xl lg:text-2xl dark:text-white font-bold mb-4">
+              📧 Email:  salhidjamil2002@gmail.com
             </p>
-            <p className="text-xl lg:text-2xl dark:text-zinc-950 font-bold mb-4">
-              🎂 Age: 21
+            <p className="text-xl lg:text-2xl dark:text-white font-bold mb-4">
+              🎂 Age: 22
             </p>
-            <p className="text-xl lg:text-2xl dark:text-zinc-950 font-bold mb-4">
+            <p className="text-xl lg:text-2xl dark:text-white font-bold mb-4">
               🚗 Driving License: B + Personal Vehicle
+              
             </p>
           </div>
         </div>
